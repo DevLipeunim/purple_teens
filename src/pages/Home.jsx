@@ -21,9 +21,7 @@ function Home() {
               <img src={heroTitle} alt="Podcast" className="hero-title" />
 
               <p className="hero-text">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt
-                in felis malesuada mollis purus id sit in aliquet lectus eget
-                morbi dui felis.
+                Discover more as teenager under Education, Enterpreneurship opportunities, and Social Issues that affects the lives of young adults.
               </p>
 
               <div className="hero-btn-group">
