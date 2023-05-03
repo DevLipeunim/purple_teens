@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import IonIcon from "@reacticons/ionicons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 import logo from "./../../assets/img/logo.svg";
 import { useRef, useEffect } from "react";
+import AudioMack from "./../../assets/img/AudioMack.svg";
 
 export default function Footer() {
   const ref = useRef(null);
@@ -40,19 +43,19 @@ export default function Footer() {
 
             <li>
               <a href="mailto:hello@micro.com" className="footer-link">
-                hello@micro.com
+                purple-teens@gmail.com
               </a>
             </li>
 
             <li>
               <a href="tel:+0123454678" className="footer-link">
-                +01234 54678
+                +01234 546789
               </a>
             </li>
 
             <li>
               <a href="tel:+15780346789" className="footer-link">
-                +1 (578) 034-6789
+              +01234 546789
               </a>
             </li>
           </ul>
@@ -81,13 +84,17 @@ export default function Footer() {
 
               <li>
                 <a href="#" className="social-link">
-                  <IonIcon name="logo-soundcloud" />
+                <FontAwesomeIcon icon={faSpotify} />
                 </a>
               </li>
 
               <li>
                 <a href="#" className="social-link">
-                  <IonIcon name="logo-apple" />
+                <img
+                      src={AudioMack}
+                      alt="Audiomack logo"
+                      className="icon-svg"
+                    />
                 </a>
               </li>
             </ul>

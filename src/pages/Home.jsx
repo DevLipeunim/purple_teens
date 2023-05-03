@@ -1,6 +1,7 @@
 import IonIcon from "@reacticons/ionicons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 import heroTitle from "./../assets/img/hero-title.png";
 import podcast1 from "./../assets/img/podcast-1.png";
 import podcast2 from "./../assets/img/podcast-2.png";
@@ -10,6 +11,7 @@ import podcast5 from "./../assets/img/podcast-5.png";
 import podcast6 from "./../assets/img/podcast-6.png";
 import podcast7 from "./../assets/img/podcast-7.png";
 import podcast8 from "./../assets/img/podcast-8.png";
+import AudioMack from "./../assets/img/AudioMack.svg";
 
 function Home() {
   return (
@@ -21,15 +23,19 @@ function Home() {
               <img src={heroTitle} alt="Podcast" className="hero-title" />
 
               <p className="hero-text">
-                Discover more as teenager under Education, Enterpreneurship opportunities, and Social Issues that affects the lives of young adults.
+                Discover more as teenager under Education, Enterpreneurship
+                opportunities, and Social Issues that affects the lives of young
+                adults.
               </p>
 
               <div className="hero-btn-group">
-                <button className="btn btn-primary">
-                  <IonIcon name="headset" />
+                <Link to={"/podcast"}>
+                  <button className="btn btn-primary">
+                    <IonIcon name="headset" />
 
-                  <span>Listen Now</span>
-                </button>
+                    <span>Listen Now</span>
+                  </button>
+                </Link>
 
                 <div className="btn-link-wrapper">
                   <p className="btn-title">Subscribe On:</p>
@@ -41,15 +47,19 @@ function Home() {
                   </a>
 
                   <a href="#" className="btn-link">
-                    <IonIcon name="logo-apple" />
+                    <img
+                      src={AudioMack}
+                      alt="Audiomack logo"
+                      className="icon-svg"
+                    />
 
-                    <span>Apple Music</span>
+                    <span>Audiomack</span>
                   </a>
 
                   <a href="#" className="btn-link">
-                    <IonIcon name="logo-soundcloud" />
+                    <IonIcon name="logo-apple" />
 
-                    <span>SoundCloud</span>
+                    <span>Apple Music</span>
                   </a>
                 </div>
               </div>
@@ -302,12 +312,7 @@ function Home() {
                   data-input
                 />
 
-                <button
-                  type="submit"
-                  className="btn btn-primary"
-                  disabled
-                  data-submit
-                >
+                <button type="button" className="btn btn-primary" data-submit>
                   Subscribe
                 </button>
               </form>
