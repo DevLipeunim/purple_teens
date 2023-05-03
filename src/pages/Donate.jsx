@@ -9,8 +9,6 @@ function Donate() {
   const [phone, setPhone] = useState("");
   const txRef = "purpleTeens_" + Math.floor(Math.random() * 1000000000 + 1);
 
-  const handleFlutterPayment = useFlutterwave(config);
-
   const config = {
     public_key: "FLWPUBK_TEST-e9ed7f46854efc95342a0d0a48adf0c6-X",
     tx_ref: txRef,
@@ -31,6 +29,8 @@ function Donate() {
       logo: "https://purple-teens.vercel.app/src/assets/img/logo.jpg",
     },
   };
+
+  const handleFlutterPayment = useFlutterwave(config);
 
   window.location.reload();
 
