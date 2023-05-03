@@ -32,8 +32,6 @@ function Donate() {
 
   const handleFlutterPayment = useFlutterwave(config);
 
-  window.location.reload();
-
   return (
     <div className="App">
       <div className="support">
