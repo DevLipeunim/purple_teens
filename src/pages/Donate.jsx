@@ -1,4 +1,3 @@
-import "../pages/Donate.css";
 import { useState } from "react";
 import { useFlutterwave, closePaymentModal } from "flutterwave-react-v3";
 
