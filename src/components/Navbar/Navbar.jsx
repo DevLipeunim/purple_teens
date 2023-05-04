@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import IonIcon from "@reacticons/ionicons";
 import logo from "./../../assets/img/logo.svg";
-import flutterWave from "./../../assets/img/flutterwave.svg";
+import flutterWave from "./../../assets/img/fw.svg";
 import { useRef, useEffect } from "react";
 
 function Navbar() {
