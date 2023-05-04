@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./public/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="shortcut icon"
+      href="./public/favicon.svg"
+      type="image/svg+xml"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap"
       rel="stylesheet"
@@ -17,13 +21,23 @@
     <title>Success</title>
   </head>
   <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: hsl(290, 100%, 5%);
+    }
     .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
+      position: relative;
+      max-width: 900px;
       width: 100%;
-      height: 100vh;
-      background: hsla(0, 0%, 0%, 0.5);
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -55,7 +69,11 @@
 
     .modal-content {
       position: relative;
-      max-width: 350px;
+      margin-top: 16px;
+      min-height: 490px;
+      background-color: #fff;
+      overflow-x: hidden;
+      overflow-y: scroll;
       margin: 20px;
       background: white;
       border-radius: 10px;
@@ -106,6 +124,7 @@
       font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
       font-weight: 900;
       font-size: 40px;
+      margin-top: 30px;
       margin-bottom: 5px;
     }
 
@@ -144,7 +163,7 @@
       width: 100%;
       margin-top: 3px;
       padding: 10px 0;
-      background-color: hsl(291, 98%, 22%);;
+      background-color: hsl(291, 98%, 22%);
       color: white;
       border: 0;
       outline: none;
@@ -164,10 +183,27 @@
             <img src="check.png" alt="check" />
             <h3 class="newsletter-title">Success</h3>
             <p class="newsletter-desc">
-              <b>Thank You so Much!!</b>
+              I wanted to take a moment to personally thank you for your recent
+              payment to support our podcast website. Your support means the
+              world to us and helps us to continue to produce high-quality
+              content that our listeners love.
+              <br />Your financial contribution helps to cover the costs
+              associated with producing and distributing our podcasts and also
+              allows us to invest in our new equipment and resources to improve
+              our show. we are grateful for your investment in our podcast and are
+              committed to bringing you the best content possible. <br />Once
+              again, I want to express my sincere thanks for your recent payment
+              and for your continued support of our podcast. We would not be
+              where we are today without listeners like you, and we are grateful
+              for the role you play in helping to achieve our goals.
+              <br/>
+              <b
+                >Thank you again, and we look forward to continuing to bring you
+                the best content possible.</b
+              >
             </p>
-            <a href="index.html">
-              <button type="submit" class="check">Go home</button>
+            <a href="index.html" >
+              <button type="submit" class="check">Go to home page</button>
             </a>
           </div>
         </div>

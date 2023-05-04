@@ -1110,15 +1110,3 @@ margin-top: 190px;
 .support button:hover{
   background: #333;
 }
-
-.swiper-carousel {
-  position: relative;
-  margin: 0 auto;
-  max-width: 100%;
-  overflow: hidden;
-
-  color: #FFFFFF;
-}
-.swiper-slide {
-  position: relative;
-}
