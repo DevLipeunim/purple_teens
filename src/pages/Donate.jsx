@@ -26,7 +26,7 @@ function Donate() {
     customizations: {
       title: "Purple Teens",
       description: "Granting support",
-      logo: "https://purple-teens.vercel.app/src/assets/img/logo.jpg",
+      logo: "https://purple-teens.vercel.app/logo.jpg",
     },
   };
 
