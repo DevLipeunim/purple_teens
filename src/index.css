@@ -74,12 +74,16 @@ button,
 ion-icon {
   display: block;
 }
-.icon-svg{
+.icon-svg {
   display: block;
   width: 22px;
   height: 22px;
 }
-
+.icon-svg2 {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
 button {
   font: inherit;
   background: none;
@@ -226,7 +230,6 @@ body {
     background-position: 0%;
   }
 }
-
 
 /*-----------------------------------*\
   #HEADER
@@ -414,6 +417,9 @@ header .container {
 
 .podcast {
   padding: var(--section-padding) 0;
+}
+.podcast2 {
+  margin-top: 130px;
 }
 
 .podcast-list {
@@ -1067,12 +1073,12 @@ header .container {
   }
 }
 
-.App{
+.App {
   text-align: center;
 }
 
-.support{
-margin-top: 190px;
+.support {
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1080,7 +1086,7 @@ margin-top: 190px;
   padding: 1rem;
 }
 
-.support input{
+.support input {
   width: 100%;
   max-width: 400px;
   padding: 1rem;
@@ -1089,10 +1095,9 @@ margin-top: 190px;
   outline: none;
   font-size: 1.2rem;
   margin-bottom: 1rem;
-
 }
 
-.support button{
+.support button {
   width: 100%;
   max-width: 400px;
   padding: 1rem;
@@ -1104,14 +1109,13 @@ margin-top: 190px;
   background: var(--blue-ryb);
   cursor: pointer;
   color: #fff;
-
 }
 
-.support button:hover{
+.support button:hover {
   background: #333;
 }
 
-.blogDiv{
+.blogDiv {
   margin-top: 190px;
   display: flex;
   flex-direction: column;

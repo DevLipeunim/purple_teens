@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import IonIcon from "@reacticons/ionicons";
 import logo from "./../../assets/img/logo.svg";
+import flutterwave from "./../../assets/img/flutterwave.svg";
 import { useRef, useEffect } from "react";
 
 function Navbar() {
@@ -12,7 +13,6 @@ function Navbar() {
     const navbar = ref1.current;
     const navToggleBtn = ref2.current;
     const overlay = ref3.current;
-
 
     navToggleBtn.addEventListener("click", () => {
       navbar.classList.toggle("active");
@@ -78,7 +78,8 @@ function Navbar() {
             <div className="navbar-actions">
               <Link className="link" to={"/donate"}>
                 <button className="btn">
-                  <IonIcon name="logo-paypal" />
+                  <img src={flutterwave} className="icon-svg2" alt="flutterWave icon" />
+                  {/* <IonIcon name="logo-paypal" /> */}
 
                   <span>Donate</span>
                 </button>
