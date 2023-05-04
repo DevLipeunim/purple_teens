@@ -30,9 +30,7 @@ export default function Footer() {
             </Link>
 
             <p className="footer-text">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt
-              in felis malesuada mollis purus id sit in aliquet lectus eget
-              morbi dui felis malesuada.
+              We hope you enjoyed listening to the latest episode and found it informative and engaging. Stay in the loop with our future episodes by subscribing on your preferred podcast platform, you can also connect with us on social media to stay up-to-date on our latest news and updates.<br/>Your support means  a lot to us, and we look forward to bringing you more exciting content. Thanks for turning in!
             </p>
           </div>
 
@@ -83,13 +81,13 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="#" className="social-link">
+                <a href="https://open.spotify.com/show/5uE8vXl7hKLY528Mn5vmhN" className="social-link">
                 <FontAwesomeIcon icon={faSpotify} />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="social-link">
+                <a href="https://audiomack.com/search?q=Purple%20Teens" className="social-link">
                 <img
                       src={AudioMack}
                       alt="Audiomack logo"

@@ -40,13 +40,13 @@ function Home() {
                 <div className="btn-link-wrapper">
                   <p className="btn-title">Subscribe On:</p>
 
-                  <a href="#" className="btn-link">
+                  <a href="https://open.spotify.com/show/5uE8vXl7hKLY528Mn5vmhN" className="btn-link">
                     <FontAwesomeIcon icon={faSpotify} />
 
                     <span>Spotify</span>
                   </a>
 
-                  <a href="#" className="btn-link">
+                  <a href="https://audiomack.com/search?q=Purple%20Teens" className="btn-link">
                     <img
                       src={AudioMack}
                       alt="Audiomack logo"
@@ -56,7 +56,7 @@ function Home() {
                     <span>Audiomack</span>
                   </a>
 
-                  <a href="#" className="btn-link">
+                  <a href="https://anchor.fm/purple-teens" className="btn-link">
                     <IonIcon name="logo-apple" />
 
                     <span>Apple Music</span>
@@ -296,9 +296,7 @@ function Home() {
                 </h3>
 
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit
-                  tincidunt todeiy felis malesuada mollis purus id sit in
-                  aliquet.
+                  Don&#39;t miss out on the latest news and updates from our podcast! Sign up for our newsletter and stay in the loop with our upcoming episodes, special guests and exclusive content. We promise never to spam you or sell your information - your privacy is important to us. Sign up now and don&#39;t miss a beat! 
                 </p>
               </div>
 
