@@ -17,8 +17,8 @@ export default function Footer() {
     });
   }, []);
 
-  function top(){
-    window.scroll(0,0)
+  function top() {
+    window.scroll(0, 0);
   }
   return (
     <>
@@ -30,7 +30,14 @@ export default function Footer() {
             </Link>
 
             <p className="footer-text">
-              We hope you enjoyed listening to the latest episode and found it informative and engaging. Stay in the loop with our future episodes by subscribing on your preferred podcast platform, you can also connect with us on social media to stay up-to-date on our latest news and updates.<br/>Your support means  a lot to us, and we look forward to bringing you more exciting content. Thanks for turning in!
+              We hope you enjoyed listening to the latest episode and found it
+              informative and engaging. Stay in the loop with our future
+              episodes by subscribing on your preferred podcast platform, you
+              can also connect with us on social media to stay up-to-date on our
+              latest news and updates.
+              <br />
+              Your support means a lot to us, and we look forward to bringing
+              you more exciting content. Thanks for turning in!
             </p>
           </div>
 
@@ -53,7 +60,7 @@ export default function Footer() {
 
             <li>
               <a href="tel:+15780346789" className="footer-link">
-              +01234 546789
+                +01234 546789
               </a>
             </li>
           </ul>
@@ -63,36 +70,61 @@ export default function Footer() {
 
             <ul className="social-list">
               <li>
-                <a href="#" className="social-link">
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                >
                   <IonIcon name="logo-facebook" />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="social-link">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                >
                   <IonIcon name="logo-twitter" />
                 </a>
               </li>
 
               <li>
-                <a href="#" className="social-link">
+                <a
+                  href="https://instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                >
                   <IonIcon name="logo-instagram" />
                 </a>
               </li>
 
               <li>
-                <a href="https://open.spotify.com/show/5uE8vXl7hKLY528Mn5vmhN" className="social-link">
-                <FontAwesomeIcon icon={faSpotify} />
+                <a
+                  href="https://open.spotify.com/show/5uE8vXl7hKLY528Mn5vmhN"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                >
+                  <FontAwesomeIcon icon={faSpotify} />
                 </a>
               </li>
 
               <li>
-                <a href="https://audiomack.com/search?q=Purple%20Teens" className="social-link">
-                <img
-                      src={AudioMack}
-                      alt="Audiomack logo"
-                      className="icon-svg"
-                    />
+                <a
+                  href="https://audiomack.com/search?q=Purple%20Teens"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-link"
+                >
+                  <img
+                    src={AudioMack}
+                    alt="Audiomack logo"
+                    className="icon-svg"
+                  />
                 </a>
               </li>
             </ul>
