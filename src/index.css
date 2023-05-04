@@ -1110,3 +1110,12 @@ margin-top: 190px;
 .support button:hover{
   background: #333;
 }
+
+.blogDiv{
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
