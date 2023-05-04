@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import IonIcon from "@reacticons/ionicons";
 import logo from "./../../assets/img/logo.svg";
-import flutterwave from "./../../assets/img/flutterwave.svg";
+import flutterWave from "./../../assets/img/flutterwave.svg";
 import { useRef, useEffect } from "react";
 
 function Navbar() {
@@ -78,7 +78,7 @@ function Navbar() {
             <div className="navbar-actions">
               <Link className="link" to={"/donate"}>
                 <button className="btn">
-                  <img src={flutterwave} className="icon-svg2" alt="flutterWave icon" />
+                  <img src={flutterWave} className="icon-svg2" alt="flutterWave icon" />
                   {/* <IonIcon name="logo-paypal" /> */}
 
                   <span>Donate</span>
